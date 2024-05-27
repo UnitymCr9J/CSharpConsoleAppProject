@@ -8,7 +8,7 @@ namespace CSharpProjekt
     {
         public static void Main(string[] args)
         {
-            var quit = false;
+            var quit = false; 
             while (!quit)
             {
                 Console.WriteLine("Would you like to display or sort data?\nPlease enter one of the numbers that are beside next options:\n");
@@ -552,9 +552,6 @@ namespace CSharpProjekt
                             var check = Regex.IsMatch(answer4, @"^\d+$");
                             if (check == true)
                             {
-                                Console.WriteLine("   ***********************************************************************************************************");
-                                Console.WriteLine("   *                                               Greyhounds                                                *");
-                                Console.WriteLine("   ***********************************************************************************************************\n\n");
                                 AnimalSplit.GreyhoundList(answer4);
                                 Console.WriteLine("\n\n");
                             }
@@ -589,9 +586,6 @@ namespace CSharpProjekt
                             var check = Regex.IsMatch(answer4, @"^\d+$");
                             if (check == true)
                             {
-                                Console.WriteLine("   ***********************************************************************************************************");
-                                Console.WriteLine("   *                                               Dwarf dogs                                                *");
-                                Console.WriteLine("   ***********************************************************************************************************\n\n");
                                 AnimalSplit.DwarfDogsList(answer4);
                                 Console.WriteLine("\n\n");
                             }
@@ -626,9 +620,6 @@ namespace CSharpProjekt
                             var check = Regex.IsMatch(answer4, @"^\d+$");
                             if (check == true)
                             {
-                                Console.WriteLine("   ***********************************************************************************************************");
-                                Console.WriteLine("   *                                             Follower dogs                                               *");
-                                Console.WriteLine("   ***********************************************************************************************************\n\n");
                                 AnimalSplit.FollowerDogsList(answer4);
                                 Console.WriteLine("\n\n");
                             }
@@ -663,9 +654,6 @@ namespace CSharpProjekt
                             var check = Regex.IsMatch(answer4, @"^\d+$");
                             if (check == true)
                             {
-                                Console.WriteLine("   *********************************************************************************************************************");
-                                Console.WriteLine("   *                                                 Hunting dogs                                                      *");
-                                Console.WriteLine("   *********************************************************************************************************************\n\n");
                                 AnimalSplit.HuntingDogsList(answer4);
                                 Console.WriteLine("\n\n");
                             }
@@ -700,9 +688,6 @@ namespace CSharpProjekt
                             var check = Regex.IsMatch(answer4, @"^\d+$");
                             if (check == true)
                             {
-                                Console.WriteLine("   ***********************************************************************************************************");
-                                Console.WriteLine("   *                                               Terriers                                                  *");
-                                Console.WriteLine("   ***********************************************************************************************************\n\n");
                                 AnimalSplit.TerrierList(answer4);
                                 Console.WriteLine("\n\n");
                             }
@@ -737,9 +722,6 @@ namespace CSharpProjekt
                             var check = Regex.IsMatch(answer4, @"^\d+$");
                             if (check == true)
                             {
-                                Console.WriteLine("   ***********************************************************************************************************");
-                                Console.WriteLine("   *                                             Service dogs                                                *");
-                                Console.WriteLine("   ***********************************************************************************************************\n\n");
                                 AnimalSplit.ServiceDogsList(answer4);
                                 Console.WriteLine("\n\n");
                             }
